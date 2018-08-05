@@ -8,7 +8,8 @@ custom:
 
 provider:
   name: aws
-  runtime: nodejs4.3
+  tenant: jregel
+  runtime: nodejs6.10
   iamRoleStatements:
     - Effect: Allow
       Action:
